@@ -1,0 +1,20 @@
+name: InventoryFull
+version: '${project.version}'
+main: me.dave.inventoryfull.InventoryFull
+api-version: '1.20'
+commands:
+  inventoryfull:
+    aliases:
+      - invfull
+    description: Main InventoryFull command
+    usage: /inventoryfull [toggle|reload|update]
+permissions:
+  inventoryfull.toggle:
+    description: Toggle your own inventory full alerts
+    default: true
+  inventoryfull.reload:
+    description: Reload the config
+    default: op
+  inventoryfull.update:
+    description: Download plugin updates
+    default: op

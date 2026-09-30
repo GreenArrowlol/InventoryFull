@@ -1,0 +1,6 @@
+target/
+decomp/
+orig/
+libs/
+.idea/
+*.iml
